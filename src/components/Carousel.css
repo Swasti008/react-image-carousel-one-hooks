@@ -1,1 +1,28 @@
 /* write down the css for Carousel in this file */
+.container{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+.arrow{
+    background-color: rgb(231, 231, 231);
+}
+.Image{
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    transition: background-Image 0.2s step-end;
+}
+div h1,h2{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.563);
+    color: black;
+    border-radius: 0.3em;
+    padding: 10px;
+    font-size: 25px;
+}
